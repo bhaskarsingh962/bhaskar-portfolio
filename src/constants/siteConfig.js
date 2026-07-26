@@ -13,11 +13,11 @@ const siteConfig = {
 
   location: "Chennai, India",
 
-  github: "https://github.com/bhaskarsingh96",
-
-  linkedin: "https://linkedin.com/in/bhaskar-singh96",
-
-  resume: "/resume.pdf",
+ social: {
+    github: "https://github.com/bhaskarsingh962",
+    linkedin: "https://linkedin.com/in/bhaskar-singh96",
+    email: "mailto:bhaskarsingh91642@gmail.com",
+  },
 };
 
 export default siteConfig;

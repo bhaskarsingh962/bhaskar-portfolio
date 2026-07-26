@@ -1,38 +1,25 @@
-import Container from "../components/ui/Container";
-import Button from "../components/ui/Button";
+import Hero from "../components/section/Hero";
+import About from "../components/section/About/About";
+import Experience from "../components/section/Experience/Experience";
+import Projects from "../components/Projects/Projects";
+import Services from "../components/section/Services/Services";
+import Testimonials from "../components/section/Testimonials/Testimonials";
+import Achievements from "../components/section/Achievements/Achievements";
+import Contact from "../components/section/Contact";
+
 
 const Home = () => {
   return (
-    <section className="min-h-screen bg-slate-950 text-white">
-
-      <Container className="flex min-h-screen flex-col items-center justify-center">
-
-        <h1 className="text-center text-6xl font-bold">
-
-          Building Modern
-
-          <span className="text-blue-500">
-            {" "}Web Experiences
-          </span>
-
-        </h1>
-
-        <p className="mt-6 max-w-2xl text-center text-lg text-slate-400">
-
-          I design and build scalable full-stack applications
-          with React, Node.js, spring boot, next js and modern web technologies.
-
-        </p>
-
-        <Button className="mt-8">
-
-          View Projects
-
-        </Button>
-
-      </Container>
-
-    </section>
+    <>
+      <Hero />
+      <About />
+      <Experience />
+      <Projects />
+      <Services />
+      <Achievements />
+      <Testimonials />
+      <Contact />
+    </>
   );
 };
 
