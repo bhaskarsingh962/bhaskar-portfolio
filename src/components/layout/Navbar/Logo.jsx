@@ -6,7 +6,7 @@ const Logo = () => {
       href="#home"
       className="text-2xl font-bold"
     >
-      <GradientText>Bhaskar.</GradientText>
+     
     </a>
   );
 };

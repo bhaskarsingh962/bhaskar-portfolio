@@ -9,11 +9,11 @@ const ProjectCard = ({ project }) => {
       whileHover={{ y: -10 }}
       className="overflow-hidden rounded-3xl border border-slate-800 bg-slate-900"
     >
-      <div className="h-56 bg-slate-800 flex items-center justify-center">
+      {/* <div className="h-56 bg-slate-800 flex items-center justify-center">
         <span className="text-slate-500">
           Project Screenshot
         </span>
-      </div>
+      </div> */}
 
       <div className="p-8">
 

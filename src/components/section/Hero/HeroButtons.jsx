@@ -15,11 +15,14 @@ const HeroButtons = () => {
       transition={{
         delay: .7,
       }}
+      href="#projects"
       className="mt-10 flex flex-wrap gap-5"
     >
-      <GlowButton>
-        View Projects
-      </GlowButton>
+      <a href="#projects">
+        <GlowButton>
+          View Projects
+        </GlowButton>
+      </a>
 
       <motion.a
         whileHover={{

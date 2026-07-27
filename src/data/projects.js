@@ -19,7 +19,7 @@ const projects = [
 
     github: "https://github.com/bhaskarsingh962",
 
-    live: "#",
+    live: "https://syncare-client.onrender.com",
 
     featured: true,
   },
@@ -43,9 +43,9 @@ const projects = [
       "JWT",
     ],
 
-    github: "https://github.com/bhaskarsingh962",
+    github: "https://github.com/bhaskarsingh962/typing-speed-app",
 
-    live: "#",
+    live: "https://typing-speed-app.onrender.com",
 
     featured: true,
   },
@@ -68,7 +68,7 @@ const projects = [
       "MongoDB",
     ],
 
-    github: "https://github.com/bhaskarsingh962",
+    github: "https://github.com/bhaskarsingh962/subscription-tracker",
 
     live: "#",
 

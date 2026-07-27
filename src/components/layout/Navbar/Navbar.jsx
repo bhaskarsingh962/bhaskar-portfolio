@@ -3,6 +3,7 @@ import NavLinks from "./NavLinks";
 import MobileMenu from "./MobileMenu";
 import ThemeToggle from "./ThemeToggle";
 import GlowButton from "../../ui/GlowButton";
+import resume from "../../../assets/resume/Bhaskar-Singh-Resume.pdf";
 
 const Navbar = () => {
   return (
@@ -27,9 +28,15 @@ const Navbar = () => {
         <div className="hidden items-center gap-4 lg:flex">
           <ThemeToggle />
 
-          <GlowButton>
-            Resume
-          </GlowButton>
+         <a
+  href={resume}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <GlowButton>
+    Resume
+  </GlowButton>
+</a>
         </div>
 
         <MobileMenu />
