@@ -2,6 +2,8 @@ import {
   FaEnvelope,
   FaPhone,
   FaMapMarkerAlt,
+  FaGithub,
+  FaLinkedin,
 } from "react-icons/fa";
 
 const contact = [
@@ -12,12 +14,26 @@ const contact = [
     value: "bhaskarsingh91642@gmail.com",
     href: "mailto:bhaskarsingh91642@gmail.com",
   },
-  {
+  // {
+  //   id: 2,
+  //   icon: FaPhone,
+  //   title: "Phone",
+  //   value: "+91 9627359239",
+  //   href: "tel:+919627359239",
+  // },
+   {
     id: 2,
-    icon: FaPhone,
-    title: "Phone",
-    value: "+91 9627359239",
-    href: "tel:+919627359239",
+    icon: FaGithub,
+    title: "GitHub",
+    value: "github.com/bhaskarsingh962",
+    href: "https://github.com/bhaskarsingh962",
+  },
+  {
+    id: 3,
+    icon: FaLinkedin,
+    title: "LinkedIn",
+    value: "linkedin.com/in/bhaskar-singh96",
+    href: "https://www.linkedin.com/in/bhaskar-singh96/",
   },
   {
     id: 3,

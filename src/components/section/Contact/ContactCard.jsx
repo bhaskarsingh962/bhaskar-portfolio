@@ -7,6 +7,7 @@ const ContactCard = ({ item }) => {
     <motion.a
       whileHover={{ y: -5 }}
       href={item.href}
+      target={item.href.startsWith("http") ? "_blank" : undefined}
       className="flex items-center gap-5 rounded-2xl border border-slate-800 bg-slate-900 p-6 transition hover:border-blue-500/30"
     >
       <div className="rounded-xl bg-blue-500/10 p-4">
