@@ -9,7 +9,7 @@ const achievements = [
   {
     id: 1,
     icon: FaCode,
-    number: "300+",
+    number: "600+",
     title: "DSA Problems Solved",
   },
   {
